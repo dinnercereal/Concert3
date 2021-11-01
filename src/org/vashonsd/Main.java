@@ -10,6 +10,9 @@ public class Main {
      * Then print out the performers.
      */
     public static void main(String[] args) {
-
+        Performer steve = new Performer("Steve", "an incredible bassist");
+        Performer john = new Performer("John", "wonderful on the drums");
+        Performer lily = new Performer("Lily", "the best singer out there");
+        System.out.println(steve + "" + john + "" + lily);
     }
 }
